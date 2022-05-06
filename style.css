@@ -8,9 +8,13 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+#opening {
+	background-color: #002540;
+}
+
 nav {
 	padding: 1rem;
-	margin-bottom: 2 rem;
+	margin-bottom: 4 rem;
 	border-bottom: 1px solid gray;
 }
 
@@ -21,9 +25,12 @@ nav li {
 
 
 nav .nav, .nav-logo {
+	color: white;
 	display: inline;
 	margin: 4rem;
+
 }
+
 
 li img {
     height: 15vh;
@@ -33,6 +40,12 @@ li img {
 
 
 #intro {
+	background-image: url(https://scontent.fmnl4-5.fna.fbcdn.net/v/t1.6435-9/128217293_1392204667792727_5323652070624535344_n.jpg?_nc_cat=106&ccb=1-6&_nc_sid=730e14&_nc_eui2=AeFjFw4s8sAcCo-5jDxMJsIBBgkj0Ear1UYGCSPQRqvVRoz5oKTKkaV4Ocvx6EXeeJK98eA7z55IQcYxqv05M3Jd&_nc_ohc=3nLiz9YuCk8AX_RdsTK&_nc_ht=scontent.fmnl4-5.fna&oh=00_AT_g9OBFw-J_CMOVUHqZs2RH14CSEQTYSN66Q5mOgd-K6Q&oe=629B76F3);
+	background-size: 100rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	justify-content: center;
+	color: white;
 	text-align: center;
 	padding-left: 10%;
 	padding-right: 10%;
@@ -46,13 +59,13 @@ li img {
 	font-size: 40px;
 }
 
-
 section h1 {
 	margin-bottom: 2rem;
-	font-size: 100px;
+	font-size: 70px;
 }
 
-#intro button {
+
+#sh button  {
 	color: white;
 	background-color: lightseagreen;
 	padding: 1rem;
@@ -61,9 +74,11 @@ section h1 {
 	font-weight: bold;
 }
 
+
 #pre-footer div {
 	margin: 2rem;
-	display: inline-block;
+	display: inline;
+	display: table-cell;
 	width: 17%;
 	color: white;
 	vertical-align: top;
@@ -71,7 +86,9 @@ section h1 {
 
 #pre-footer {
 	background-color: #002540;
-	padding: 2rem 10% 3rem
+	padding: 3rem 10% 3rem;
+	padding-left: 25%;
+	align-content: center;
 
 }
 
@@ -86,7 +103,8 @@ span {
 
 #form {
 	margin: 1rem;
-	padding: 2rem 10% 3rem
+	padding: 2rem 10% 3rem;
+	background-color: lightblue;
 }
 
 #pcf {

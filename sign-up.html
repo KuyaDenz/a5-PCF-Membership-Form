@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sign-up!</title>
+</head>
+<body>
+
+	<body id="form">
+	<h1 id="pcf">Philadelphia Christcentered Fellowhip</h1>
+	
+	<h3>Personal Details:</h3>
+
+	<form>
+	
+		<div id="info">
+			<label for="firstName">First Name:</label>
+			<input type="Text" placeholder="Input your firstname here" id="firstName" required autocomplete>
+		
+			<label for="lastName">Last Name:</label>
+			<input type="Text" placeholder="Input your lastName here" id="lastName" required autocomplete>
+
+			<label for="birth_date">Birth Date:</label>
+			<input type="date" id="birth_date" required>
+
+			<label for="gender">Gender:</label>
+
+				<select id="gender">
+					<option>Choose your gender</option>
+					<option value="Male">Male</option>
+					<option value="Female">Female</option>
+				</select>
+			</div>
+
+		<br>
+
+		<div>
+			<label for="molibe_number">Mobile Number:</label>
+			<input type="number" id="mobile_number" required>
+
+			<label for="email">Email:</label>
+			<input type="Text" placeholder="Input your email here" id="email" required autocomplete>
+
+			<label for="facebook_email">Facebook Email:</label>
+			<input type="Text" placeholder="Input your facebook here" id="facebook_email" required autocomplete>
+		</div>
+
+		<br>
+
+		<div id="bapt">
+
+			<input type="radio" name="Membership_login" value="Baptized in PCF" id="Baptized_in_PCF">
+			<label for="Baptize_in_PCF">Baptized in PCF</label>
+
+		<br>
+			<input type="radio" name="Membership_login" value="Not yet baptized" id="Not_yet_baptized">
+			<label for="Not_yet_baptized">Not yet baptized</label>
+		
+		<br>
+			<input type="radio" name="Membership_login" value="Baptized in PCF" id="Baptized_in_other_churches">
+			<label for="Baptized_in_other_churches">Baptized in other churches</label>
+
+				<nav>
+					<textarea id="notes" rows="5" cols="30" style="resize: none;" <input type="Text" placeholder="indicate the name of the church and when you have been baptized."></textarea>
+
+		<br>
+
+				<!-- create a button that will submit the form data -->
+				<button type="Submit">Submit</button>
+				<!-- Button that will reset all the input fields -->
+				<button type="reset">Reset</button>
+
+				</nav>
+		</div>
+
+		<p><strong>NOTE:</strong>Your membership application will be still under evaluation. We will contact you for further evaluation. Thank you and God Bless!</p>
+
+	</form>
+
+</body>
+</html>
