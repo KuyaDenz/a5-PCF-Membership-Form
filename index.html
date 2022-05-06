@@ -4,27 +4,33 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>PCF MEMBERSHIP FORM</title>
-</head>
-<body>
-	<h1 align="center">Philadelphia Christcentered Fellowhip</h1>
 
-	<h2 align="center">MEMBERSHIP FORM</h2>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+
+</head>
+<body id="form">
+	<h1 id="pcf">Philadelphia Christcentered Fellowhip</h1>
+
+	<h2 id="pcf">Membership Login:</h2>
+
+		<br>
+	
 	<h3>Personal Details:</h3>
 
-
-	<form>
-			<label for="firstName">First Name:</label>
-			<input type="Text" placeholder="Input your firstname here" id="firstName" required autocomplete>
 		<br>
 
+	<form>
+	
+		<div id="info">
+			<label for="firstName">First Name:</label>
+			<input type="Text" placeholder="Input your firstname here" id="firstName" required autocomplete>
+		
 			<label for="lastName">Last Name:</label>
 			<input type="Text" placeholder="Input your lastName here" id="lastName" required autocomplete>
 
-		<br>
 			<label for="birth_date">Birth Date:</label>
 			<input type="date" id="birth_date" required>
 
-		<br>
 			<label for="gender">Gender:</label>
 
 				<select id="gender">
@@ -32,22 +38,25 @@
 					<option value="Male">Male</option>
 					<option value="Female">Female</option>
 				</select>
-		<br>
-				<label for="molibe_number">Mobile Number:</label>
-				<input type="number" id="mobile_number" required>
-		<br>
+			</div>
+
+		<br><br>
+
+		<div>
+			<label for="molibe_number">Mobile Number:</label>
+			<input type="number" id="mobile_number" required>
+
 			<label for="email">Email:</label>
 			<input type="Text" placeholder="Input your email here" id="email" required autocomplete>
 
-		<br>
 			<label for="facebook_email">Facebook Email:</label>
 			<input type="Text" placeholder="Input your facebook here" id="facebook_email" required autocomplete>
+		</div>
 
 		<br>
 
-		<label>Membership Login:</label>
+		<div id="bapt">
 
-		<br>
 			<input type="radio" name="Membership_login" value="Baptized in PCF" id="Baptized_in_PCF">
 			<label for="Baptize_in_PCF">Baptized in PCF</label>
 
@@ -59,44 +68,47 @@
 			<input type="radio" name="Membership_login" value="Baptized in PCF" id="Baptized_in_other_churches">
 			<label for="Baptized_in_other_churches">Baptized in other churches</label>
 
+				<nav>
+					<textarea id="notes" rows="5" cols="30" style="resize: none;" <input type="Text" placeholder="indicate the name of the church and when you have been baptized."></textarea>
+
 		<br>
-			<textarea id="notes" rows="5" cols="30" style="resize: none;" <input type="Text" placeholder="indicate the name of the church and when you have been baptized."></textarea>
 
-
-		<br><br>
 				<!-- create a button that will submit the form data -->
 				<button type="Submit">Submit</button>
 				<!-- Button that will reset all the input fields -->
 				<button type="reset">Reset</button>
 
+				</nav>
+		</div>
+
 	</form>
 
-
-
+		<p id="note"><strong>NOTE:</strong> For PCF Official Members Only. Fill up the folling:</p>
 
 		<br>
-	<hr>
-		<p><strong>NOTE:</strong> For PCF Official Members Only. Fill up the folling:</p>
 
-	<form>
+	<form id="mem">
 
 		<label>Mentor/Discipler's Name:</label>
 			
-			<br>		
+		<nav id="mentor">	
 			<label for="firstName">First Name:</label>
 			<input type="Text" placeholder="Input First name here" id="firstName" required autocomplete>
 
 			<label for="lastName">Last Name:</label>
 			<input type="Text" placeholder="Input Last Name here" id="lastName" required autocomplete>
 
-			<br>
+			<br><br>
 			<label for="notes">Write the name of your disciples if any:</label>
 			<br>
 			<textarea id="notes" rows="5" cols="30" style="resize: none;" <input type="Text" placeholder="1."></textarea>
 
-		<br><br>
-		<label>Have you committed/involve to any ministry of our church?</label>
-				<br>
+		</nav>
+
+		<br>
+
+			<label>Have you committed/involve to any ministry of our church?</label>	
+			<nav>
 				<input type="radio" name="Have_you_committed/involve_to_any_ministry_of_our_church?" value="yes" id="yes">
 				<label for="yes">Yes</label>
 				<br>
@@ -107,13 +119,13 @@
 						<label for="notes">If <strong>YES</strong>, Write the ministry you involving in the box:</label>
 						<br>
 						<textarea id="notes" rows="5" cols="30" style="resize: none;" <input type="Text" placeholder="Input the  Ministry name and Date Started"></textarea>
-
+			</nav>	
 
 
 			<br><br>
 		<label>LIFE GEARS (Life in fruitful experiences):</label>
 
-			<br><br>
+			<nav>
 			<input type="checkbox" value="101" id="101">
 			<label for="101">Life Gear 101 (Membership)</label>
 
@@ -135,7 +147,7 @@
 			<input type="checkbox" value="501" id="501">
 			<label for="501">Life Gears 501 (Magnification)</label>
 
-		<br><br><br>
+		<br><br>
 		<label>Follow-up Series:</label>
 
 			<br>
@@ -171,7 +183,7 @@
 
 
 
-
+			</nav>	
 	</form>
 
 

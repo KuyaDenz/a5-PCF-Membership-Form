@@ -19,6 +19,7 @@ nav li {
 
 }
 
+
 nav .nav, .nav-logo {
 	display: inline;
 	margin: 4rem;
@@ -44,6 +45,7 @@ li img {
 	margin: 1rem;
 	font-size: 40px;
 }
+
 
 section h1 {
 	margin-bottom: 2rem;
@@ -73,7 +75,52 @@ section h1 {
 
 }
 
+a {
+	text-decoration: none;
+	color: white;
+}
 
 span {
 	margin: 1rem;
+}
+
+#form {
+	margin: 1rem;
+	padding: 2rem 10% 3rem
+}
+
+#pcf {
+	text-align: center;
+}
+
+#form h2 {
+	text-align: left;
+}
+
+#info {
+	display: inline;
+}
+
+#bapt {
+	text-align: left;
+}
+
+#note	{
+	text-align: center;
+	padding: 1rem;
+}
+
+textarea {
+	padding: 2rem
+}
+
+#mentor {
+	text-align: left;
+	padding: 1rem;
+}
+
+body h1 {
+	margin: 1rem;
+	padding: 2rem;
+}
 
